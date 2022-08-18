@@ -50,3 +50,10 @@ body::-webkit-scrollbar{
 .user-status-selector input[radio]{
     margin: 5px;
 }
+
+.block input{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 30px;
+}
