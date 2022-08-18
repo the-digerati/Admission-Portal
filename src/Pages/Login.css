@@ -1,19 +1,25 @@
 body{
     background: url(/src/bg-login.png) no-repeat;
-    height: 750px;
+    height: 700px;
     width: 100%;
     background-size: cover;
-    left: 0%l
 }
 body::-webkit-scrollbar{
     display: none;
 }
 
 .main{
-    margin: 0 auto;
     justify-content: center;
     align-content: center;
+    float: right;
+    top: 40px;
     flex: 1;
+    background-color: aqua;
+    width: 250px;
+    height: 200px;
+    margin: 20rem 10rem auto;
+
+
 }
 
 .main img{

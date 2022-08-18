@@ -5,7 +5,8 @@ import STS from '../sts-logo.png'
 const Login = () => {
   return (
     <div className='main'>
-        <img src={STS}></img>
+        {/* <img src={STS}></img> */}
+        <p></p>
     </div>
   )
 }
