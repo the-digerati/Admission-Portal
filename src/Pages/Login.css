@@ -28,3 +28,13 @@ body::-webkit-scrollbar{
     height: 80px;
     margin: auto;
 }
+
+.user-status-selector{
+    display: flex;
+    }
+
+.user-status-selector .student-status, .admin-status{
+    display: flex;
+    padding: 5px 2px;
+    margin: auto;
+}
