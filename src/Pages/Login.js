@@ -1,6 +1,7 @@
 import React from 'react'
 import './Login.css'
 import STS from '../sts-logo.png'
+import Padlock from '../padlock.svg'
 
 const Login = () => {
   return (
@@ -22,13 +23,13 @@ const Login = () => {
       {/* Login Form */}
       <label class="block">
         <input type="text" name="USER-ID" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm" placeholder="USER ID" >
-        <img></img>
         </input>
 
         <input type="password" name="PIN" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm " placeholder="PIN"></input>
       </label>
-      <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
-        Save changes
+
+      <button class=" focus:outline-none focus:ring focus:ring-violet-300 ...">
+        LOGIN
       </button>
     </div>
   )

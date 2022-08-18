@@ -17,7 +17,7 @@ body::-webkit-scrollbar{
     float: right;
     top: 40px;
     flex: 1;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 300px;
     height: 250px;
     margin: 15rem 15rem auto;
@@ -56,4 +56,23 @@ body::-webkit-scrollbar{
     margin: auto;
     margin-bottom: 5px;
     height: 30px;
+}
+
+button{
+    color: white;
+    border-radius: 15px;
+    width: 180px;
+    height: 30px;
+    margin: auto;
+    float: right;
+    font-family: 'Lato';
+    font-size: small;
+    font-weight: bold;
+    background-color: #BF9F62;
+    margin-right: 3rem;
+    margin-top: 5px;
+}
+
+button:hover{
+    background-color: #c0974c;
 }
