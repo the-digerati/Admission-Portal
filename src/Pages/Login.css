@@ -15,9 +15,10 @@ body::-webkit-scrollbar{
     top: 40px;
     flex: 1;
     background-color: aqua;
-    width: 250px;
-    height: 200px;
-    margin: 20rem 10rem auto;
+    width: 300px;
+    height: 250px;
+    margin: 15rem 15rem auto;
+    padding: 10px;
 
 
 }
