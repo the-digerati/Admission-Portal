@@ -19,11 +19,12 @@ body::-webkit-scrollbar{
     height: 250px;
     margin: 15rem 15rem auto;
     padding: 10px;
-
+    border-radius: 8px;
 
 }
 
 .main img{
     width: 200px;
     height: 80px;
+    margin: auto;
 }
