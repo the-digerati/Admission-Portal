@@ -20,15 +20,12 @@ const Login = () => {
       </div>
 
       {/* Login Form */}
-      <form>
-        <label class="block">
-          <span class="block text-sm font-medium text-slate-700">Social Security Number</span>
-          <input class="border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500" />
-          <p class="mt-2 opacity-10 contrast-more:opacity-100 text-slate-600 text-sm">
-            We need this to steal your identity.
-          </p>
-        </label>
-      </form>
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+          Email
+        </span>
+        <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />
+      </label>
     </div>
   )
 }
