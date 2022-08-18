@@ -11,11 +11,11 @@ const Login = () => {
       <div className='user-status-selector'>
         <div className='student-status'>
           <input type="radio" class="default:ring-2" id='student'/>
-          <span class="block text-sm font-medium text-slate-700" id='admin'>Student</span>
+          <span class="block text-sm font-medium text-slate-700" id='admin' style={{color: 'white'}}>Student</span>
         </div>
         <div className='admin-status'>
-          <input type="radio" class="default:ring-2" />
-          <span class="block text-sm font-medium text-slate-700">Admin</span>
+          <input type="radio" class="default:ring-1" />
+          <span class="block text-sm font-medium text-slate-700" style={{color: 'white'}}>Admin</span>
         </div>
       </div>
 

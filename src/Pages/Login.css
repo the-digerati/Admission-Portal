@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@200;300;400&display=swap');
+
 body{
     background: url(/src/bg-login.png) no-repeat;
     height: 700px;
@@ -14,7 +17,7 @@ body::-webkit-scrollbar{
     float: right;
     top: 40px;
     flex: 1;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 300px;
     height: 250px;
     margin: 15rem 15rem auto;
@@ -31,10 +34,19 @@ body::-webkit-scrollbar{
 
 .user-status-selector{
     display: flex;
+    font-family: 'Lato' !important;
+    float: right;
+    margin-right: 5rem;
     }
 
 .user-status-selector .student-status, .admin-status{
     display: flex;
     padding: 5px 2px;
-    margin: auto;
+    margin: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-status-selector input[radio]{
+    margin: 5px;
 }
