@@ -1,5 +1,7 @@
-body{
-    background: white;
+.container{
+    background: white !important;
+    height: 100vh;
+    width: 100vw !important;
 }
 
 header{
@@ -11,4 +13,11 @@ header{
     padding: 10px 30px;
     color: white;
     font-family: 'Lato';
+}
+
+
+.menu{
+    width: 20vw;
+    color: #3ee;
+    height: 80vh;
 }

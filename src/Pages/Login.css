@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@200;300;400&display=swap');
 
 body{
-    background: url(/src/bg-login.png) no-repeat;
+    background: url(/src/bg-login.png);
     height: 700px;
     width: 100%;
     background-size: cover;

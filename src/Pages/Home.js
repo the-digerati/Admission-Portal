@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Profile from '../profile.svg'
 
 
 const Home = () => {
@@ -14,6 +15,8 @@ const Home = () => {
           <p>DEUTSCHE INTERNATIONAL SCHOOL</p>
         </div>
       </header>
+      
+
     </div>
   )
 }
