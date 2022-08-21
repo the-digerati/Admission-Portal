@@ -5,7 +5,7 @@ import Header from '../Components/Header'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container' style = {styles.main}>
       <Header />    
 
 
