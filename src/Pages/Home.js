@@ -1,13 +1,13 @@
 import React from 'react'
 import './Home.css'
-import Profile from '../profile.svg'
+import Header from '../Components/Header'
 
 
 const Home = () => {
   return (
     <div className='container'>
-      
-      
+      <Header />    
+
 
     </div>
   )

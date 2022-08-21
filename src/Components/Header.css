@@ -1,1 +1,15 @@
+header{
+    background-color: #16D39A;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    font-family: 'Lato';
+}
 
+.logo{
+    margin-left: 7rem !important ;
+   
+}

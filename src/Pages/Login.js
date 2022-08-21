@@ -6,6 +6,7 @@ import Padlock from '../padlock.svg'
 const Login = () => {
   return (
     <div className='main'>
+      
       <img src={STS}></img>
 
       {/* User Status Selector */}
