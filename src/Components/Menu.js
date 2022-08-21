@@ -3,7 +3,7 @@ import './Menu.css'
 
 const Menu = () => {
   return (
-    <div className='container hero-sction'>
+    <div className='container hero-section'>
         
     </div>
   )
