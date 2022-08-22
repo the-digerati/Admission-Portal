@@ -1,18 +1,18 @@
 import React from 'react'
 import './Header.css'
 import Logo from '../logo.png'
-import Profile from '../profile.svg'
+import { BiUserCircle } from 'react-icons/bi'
 
 const Header = () => {
   return (
     <div className='md:container md:mx-auto'>
-        <header>
+      <header>
         <div className='user-header'>
-            {/* <FaUserGraduate/> */}
-          <img src={Profile} alt ='user-avatar' />  
+          {/* <FaUserGraduate/> */}
+        
           <p className='userName'>Mark</p>
         </div>
-        <img className='logo' src={Logo} alt='Logo'/>
+        <img className='logo' src={Logo} alt='Logo' />
         <div id='schoolName'>
           <p>DEUTSCHE INTERNATIONAL SCHOOL</p>
         </div>
