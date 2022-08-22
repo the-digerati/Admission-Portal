@@ -7,8 +7,9 @@ const Header = () => {
   return (
     <div className='md:container md:mx-auto'>
         <header>
-        <div className='user'>
+        <div className='user-header'>
             {/* <FaUserGraduate/> */}
+          <img src={Profile} alt ='user-avatar' />  
           <p className='userName'>Mark</p>
         </div>
         <img className='logo' src={Logo} alt='Logo'/>
