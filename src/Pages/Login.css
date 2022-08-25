@@ -58,15 +58,11 @@ body::-webkit-scrollbar{
     height: 30px;
 }
 
-.block ~input:focus-within{
-
-}
-
 button{
     color: white;
     border-radius: 15px;
     width: 180px;
-    height: 35px;
+    height: 30px;
     margin: auto;
     float: right;
     font-family: 'Lato';
