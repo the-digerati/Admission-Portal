@@ -58,6 +58,10 @@ body::-webkit-scrollbar{
     height: 30px;
 }
 
+.block ~input:focus-within{
+
+}
+
 button{
     color: white;
     border-radius: 15px;

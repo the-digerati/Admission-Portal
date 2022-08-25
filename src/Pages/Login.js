@@ -26,7 +26,7 @@ const Login = () => {
         <input type="text" name="USER-ID" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm" placeholder="USER ID" >
         </input>
 
-        <input type="password" name="PIN" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm " placeholder="PIN"></input>
+        <input type="password" name="PIN" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm " maxLength={5}  placeholder="PIN"></input>
       </label>
 
       <button class=" focus:outline-none focus:ring focus:ring-violet-300 ...">
