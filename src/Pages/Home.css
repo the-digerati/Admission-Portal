@@ -5,6 +5,17 @@
 }
 
 .menu-nav{
-    padding: 20px;
-    }
-    
+    padding: 5px;
+}
+
+.menu-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.menu-nav li {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

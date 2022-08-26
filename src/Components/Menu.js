@@ -9,13 +9,17 @@ const Menu = () => {
       {/* Aside Menu */}
       <div className='aside-menu'>
         <ul className='menu-nav'>
-          <li><img  src={chevron}/>Ghana</li>
+          <li><img src={chevron} /></li>
+          <li><img src={chevron} />Ghana</li>
+          <li><img src={chevron} />Ghana</li>
+          <li><img src={chevron} />Ghana</li>
+          <li><img src={chevron} />Ghana</li>
+          <li><img src={chevron} />Ghana</li>
+          <li><img src={chevron} />Ghana</li>
 
         </ul>
-        
-
       </div>
-        
+
     </div>
   )
 }
