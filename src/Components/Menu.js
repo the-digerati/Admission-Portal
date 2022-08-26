@@ -1,5 +1,6 @@
 import React from 'react'
 import './Menu.css'
+import chevron from '../Icons/chevron.svg'
 
 
 const Menu = () => {
