@@ -6,7 +6,9 @@ import cash from '../Icons/cash.svg'
 import logout from '../Icons/logout.svg'
 import profile from '../Icons/profile.svg'
 import settings1 from '../Icons/settings1.svg'
+import settings from '../Icons/settings.svg'
 import Vector from '../Icons/Vector.svg'
+import mic from '../Icons/codicon_broadcast.svg'
 
 
 const Menu = () => {
@@ -16,12 +18,13 @@ const Menu = () => {
       <div className='aside-menu'>
         <ul className='menu-nav'>
           <li><img src={chevron}/>Less</li>
+          <li><img src={cash} />Ghana</li>
+          <li><img src={broadcast} />Ghana</li>
+          <li><img src={settings1} />Ghana</li>
+          <li><img src={settings} />Ghana</li>
+          <li><img src={Vector} />Ghana</li>
           <li><img src={chevron} />Ghana</li>
-          <li><img src={chevron} />Ghana</li>
-          <li><img src={chevron} />Ghana</li>
-          <li><img src={chevron} />Ghana</li>
-          <li><img src={chevron} />Ghana</li>
-          <li><img src={chevron} />Ghana</li>
+          <li><img src={mic} />Ghana</li>
 
         </ul>
       </div>
