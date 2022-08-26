@@ -8,6 +8,9 @@ const Menu = () => {
     <div className='container hero-section'>
       {/* Aside Menu */}
       <div className='aside-menu'>
+        <ul>
+          
+        </ul>
         
 
       </div>
