@@ -13,7 +13,7 @@ import Vector from '../Icons/Vector.svg'
 import radio from '../Icons/codicon_broadcast.svg'
 
 
-const Menu = () => 
+const Menu = () => {
   const minimize = () => {
     let min = document.querySelector('#minimize');
     min.addEventListener('click', minimize);
