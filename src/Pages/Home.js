@@ -10,7 +10,7 @@ const Home = () => {
       <Menu />
       <div className='form-container'>
         <h3 className='title'>COMPLETE THE FORM BELOW</h3>
-        <span className = 'seperator'></span>
+        <hr className = 'seperator'></hr>
 
       </div>
 
