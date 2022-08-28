@@ -29,9 +29,23 @@
     justify-content: center;
     padding: 10px;
     background-color: aqua;
-    width: 40vw;
+    width: 94vw;
     height: 50vh;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 5%;
+    left: 5%;
+    margin: 0 5px;
+}
+
+.title{
+    font-weight: bold;
+    margin-left: -10rem ;
+    padding: 5px;
+    font-family: 'Lato';
+}
+
+.seperator{
+    height: 20px;
+    width: auto;
+    color: antiquewhite;
 }
