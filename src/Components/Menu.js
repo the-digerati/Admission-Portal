@@ -23,16 +23,16 @@ const Menu = () => {
       {/* Aside Menu */}
       <div className='aside-menu'>
         <ul className='menu-nav'>
-          <li><img title='Minimize' src={chevron} id = 'minimize'/>Less</li>
-          <li><img title='Enrol' src={Pen} />Enrol</li>
-          <li><img title='' src={mail} />Inbox</li>
-          <li><img title='' src={broadcast} />Profile</li>
-          <li><img title='' src={cash} />Fees</li>
-          <li><img title='' src={settings} />Status</li>
-          <li><img title='' src={Vector} />Quiz</li>
-          <li><img title='' src={settings1} />Settings</li>
-          <li><img title='' src={radio} />Broadcast</li>
-          <li><img title='' src={logout} />Logout</li>
+          <li><img title='Minimize' src={chevron} id = 'minimize'/></li>
+          <li><img title='Enrol' src={Pen} /></li>
+          <li><img title='Inbox' src={mail} /></li>
+          <li><img title='Profile' src={broadcast} /></li>
+          <li><img title='Fees' src={cash} /></li>
+          <li><img title='Status' src={settings} /></li>
+          <li><img title='Quiz' src={Vector} /></li>
+          <li><img title='Settings' src={settings1} /></li>
+          <li><img title='Broadcast' src={radio} /></li>
+          <li><img title='Logout' src={logout} /></li>
 
 
         </ul>
