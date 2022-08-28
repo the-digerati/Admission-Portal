@@ -24,17 +24,15 @@ const Menu = () => {
       <div className='aside-menu'>
         <ul className='menu-nav'>
           <li><img title='Minimize' src={chevron} id = 'minimize'/></li>
-          <li><img title='Enrol' src={Pen} /></li>
-          <li><img title='Inbox' src={mail} /></li>
           <li><img title='Profile' src={broadcast} /></li>
-          <li><img title='Fees' src={cash} /></li>
-          <li><img title='Status' src={settings} /></li>
           <li><img title='Quiz' src={Vector} /></li>
+          <li><img title='Enrol' src={Pen} /></li>
+          <li><img title='Fees' src={cash} /></li>
           <li><img title='Settings' src={settings1} /></li>
+          <li><img title='Status' src={settings} /></li>
           <li><img title='Broadcast' src={radio} /></li>
+          <li><img title='Inbox' src={mail} /></li>
           <li><img title='Logout' src={logout} /></li>
-
-
         </ul>
       </div>
 

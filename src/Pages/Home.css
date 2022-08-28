@@ -23,3 +23,15 @@
     text-transform: uppercase;
     font-family: 'Lato';
 }
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: aqua;
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
