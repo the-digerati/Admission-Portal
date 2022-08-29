@@ -26,21 +26,56 @@
 
 .form-container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 10px;
     background-color: aqua;
     width: 90%;
     height: 50vh;
     position: absolute;
-    top: 5%;
+    top: 12%;
     left: 5%;
     margin: 2rem 2rem;
     border-radius: 10px;
 }
 
 .title{
-    font-weight: bold;
-    margin-left: -10rem ;
     padding: 5px;
     font-family: 'Lato';
+    position: absolute;
+    margin-top: 3.5rem !important;
+    left: 40%;
+    top: 0;
+    font-weight: 600;
+}
+
+.sperator{
+    position: absolute;
+    top: 0;
+    margin-top: 5.5rem;
+    width: 94vw;
+    left: 6%;
+    padding: 2.5px 5px;
+    height: 28px;
+    background-color: #BF9F62;
+    opacity: 0.75;
+}
+
+.sperator p{
+    font-weight: 500;
+    font-size: medium;
+    padding: 0px 20px;
+}
+
+.form-container p {
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #117533;
+    word-spacing: 2px;
+    text-decoration-style: solid;
+}
+
+.form-container p span{
+    background-color: #117533;
+    width: 100%;
+    height: 1px;
 }

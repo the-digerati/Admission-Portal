@@ -7,10 +7,16 @@ const Admission = () => {
   return (
     <div className='main-page'>
       <Header/>
-      <span className = 'seperator' style={{height: '20px', width: '100%', backgroundColor: '#BF9F62'}}></span>
       <Menu/>
-      <div className='form-container'>
         <h3 className='title'>COMPLETE THE FORM BELOW</h3>
+        <span className='sperator'>
+          <p>STUDENT'S DETAILS</p>
+        </span>
+      <div className='form-container'>
+        <p >Personal Information 
+        <span></span>
+        </p>
+       
        
 
       </div>
