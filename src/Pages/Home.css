@@ -26,9 +26,7 @@
 
 .form-container{
     display: flex;
-    /* justify-content: center; */
     padding: 10px;
-    background-color: aqua;
     width: 90%;
     height: 80vh;
     position: absolute;
@@ -99,4 +97,46 @@
     font-family: 'Poppins';
     font-weight: bold;
     margin-top: 1rem !important;
+}
+
+.form-btn-group{
+    float: right;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px 10px;
+}
+
+.btn-primary-back{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #F20303;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.btn-primary-back:hover{
+    background-color: #F20303;
+    opacity: 0.95;
+    transform: scale(0.95);
+    transition: ease-in-out;
+}
+
+.submit{
+    width: 200px;
+    border-radius: 8px;
+    background-color: #2DCEE3;
+    height: 35px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.submit:hover{
+    opacity: 0.95;
+    background-color: #2DCEE3;
+    transform: scale(0.95);
+    transition: ease-in-out;
 }

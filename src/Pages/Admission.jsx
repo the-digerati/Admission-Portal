@@ -42,46 +42,46 @@ const Admission = () => {
 
         <div className="fieldset-container">
           <div>
-            <label>First Name</label>
+            <label>Date Of Birth</label>
           <input
-            type="text"
+            type="date_of_birth"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="MARK"
+            placeholder="5/03/2002"
           ></input>
           </div>
 
         <div>
-          <label>Last Name</label>
+          <label>Place Of Birth</label>
         <input
             type="text"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
             required
-            placeholder="MENSAH"
+            placeholder="KOFORIDUA"
           ></input>
         </div>
         </div>
 
         <div className="fieldset-container">
           <div>
-            <label>First Name</label>
+            <label>Class or Level</label>
           <input
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="MARK"
+            placeholder="PRIMARY 5"
           ></input>
           </div>
 
         <div>
-          <label>Last Name</label>
+          <label>Denomination</label>
         <input
             type="text"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
             required
-            placeholder="MENSAH"
+            placeholder="METHODIST"
           ></input>
         </div>
         </div>
@@ -100,7 +100,7 @@ const Admission = () => {
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="MARK"
+            placeholder="LUCY"
           ></input>
           </div>
 
@@ -118,49 +118,57 @@ const Admission = () => {
 
         <div className="fieldset-container">
           <div>
-            <label>First Name</label>
+            <label>Place of Residence</label>
           <input
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="MARK"
+            placeholder="DANSOMAN"
           ></input>
           </div>
 
         <div>
-          <label>Last Name</label>
+          <label>Occupation</label>
         <input
             type="text"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
             required
-            placeholder="MENSAH"
+            placeholder="TRADER"
           ></input>
         </div>
         </div>
 
         <div className="fieldset-container">
           <div>
-            <label>First Name</label>
+            <label>Marital Status</label>
           <input
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="MARK"
+            placeholder="SINGLE"
           ></input>
           </div>
 
         <div>
-          <label>Last Name</label>
+          <label>Telephone</label>
         <input
-            type="text"
+            type="telephone"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
             required
-            placeholder="MENSAH"
+            placeholder="+233-509-578-9927"
           ></input>
         </div>
         </div>
+
+        {/* Grouped Buttons Here */}
+
+        <div className="form-btn-group">
+          <button className="btn-primary-back">Abort</button>
+          <button className="submit">Next</button>
+        </div>
+
       </div>
     </div>
   );
