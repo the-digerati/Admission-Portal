@@ -2,8 +2,9 @@ import React from 'react'
 
 const Quiz = () => {
   return (
-    <div>
-      
+    <div className='main-page'>
+
+
     </div>
   )
 }
