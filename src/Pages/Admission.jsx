@@ -18,14 +18,19 @@ const Admission = () => {
         <span></span>
 
         <div className="fieldset-container">
+          <div>
+            <label>First Name</label>
           <input
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
             placeholder="MARK"
           ></input>
+          </div>
 
-          <input
+        <div>
+          <label>Last Name</label>
+        <input
             type="text"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
@@ -33,15 +38,22 @@ const Admission = () => {
             placeholder="MENSAH"
           ></input>
         </div>
+        </div>
+
         <div className="fieldset-container">
+          <div>
+            <label>First Name</label>
           <input
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
             placeholder="MARK"
           ></input>
+          </div>
 
-          <input
+        <div>
+          <label>Last Name</label>
+        <input
             type="text"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
@@ -49,15 +61,22 @@ const Admission = () => {
             placeholder="MENSAH"
           ></input>
         </div>
+        </div>
+
         <div className="fieldset-container">
+          <div>
+            <label>First Name</label>
           <input
             type="text"
             name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
             placeholder="MARK"
           ></input>
+          </div>
 
-          <input
+        <div>
+          <label>Last Name</label>
+        <input
             type="text"
             name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
@@ -65,25 +84,82 @@ const Admission = () => {
             placeholder="MENSAH"
           ></input>
         </div>
+        </div>
+        
+      
 
         {/* Guardian Information Section */}
         <p>Guardian Information</p>
         <span></span>
+       
+
         <div className="fieldset-container">
+          <div>
+            <label>First Name</label>
           <input
             type="text"
-            name="USER-ID"
+            name="firstName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="USER ID"
+            placeholder="MARK"
           ></input>
+          </div>
 
-          <input
-            type="password"
-            name="PIN"
+        <div>
+          <label>Last Name</label>
+        <input
+            type="text"
+            name="lastName"
             class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
             required
-            placeholder="PIN"
+            placeholder="MENSAH"
           ></input>
+        </div>
+        </div>
+
+        <div className="fieldset-container">
+          <div>
+            <label>First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+            placeholder="MARK"
+          ></input>
+          </div>
+
+        <div>
+          <label>Last Name</label>
+        <input
+            type="text"
+            name="lastName"
+            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+            required
+            placeholder="MENSAH"
+          ></input>
+        </div>
+        </div>
+
+        <div className="fieldset-container">
+          <div>
+            <label>First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+            placeholder="MARK"
+          ></input>
+          </div>
+
+        <div>
+          <label>Last Name</label>
+        <input
+            type="text"
+            name="lastName"
+            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+            required
+            placeholder="MENSAH"
+          ></input>
+        </div>
         </div>
       </div>
     </div>

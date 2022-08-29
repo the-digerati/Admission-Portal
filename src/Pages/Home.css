@@ -30,7 +30,7 @@
     padding: 10px;
     background-color: aqua;
     width: 90%;
-    height: 50vh;
+    height: 80vh;
     position: absolute;
     top: 13%;
     left: 5%;
@@ -79,16 +79,24 @@
 
 .form-container span{
     background-color: #117533;
-    width: 100%;
+    width: 93%;
     height: 0.5px;
 }
 
 .fieldset-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10rem;
 }
 
 .fieldset-container input{
     margin-bottom: 5px !important;
-    width: 40%;
+    width: 550px;
+    background-color: #eee;
+}
+
+.fieldset-container label{
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 1rem !important;
 }
