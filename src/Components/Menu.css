@@ -5,11 +5,12 @@
 }
 
 .aside-menu{
-    width: 5vw;
+    width: 6vw;
     height: 80vh;
     background-color: #BF9F62;
     border-radius: 0 0 5px 0;
     position: absolute;
     top: 5%;
     padding: 5px;
+    margin-top: 0.5rem;
 }

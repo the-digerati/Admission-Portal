@@ -13,7 +13,7 @@ function App() {
         {/* Routing Path to different Pages */}
         <Route path='/' element = {<Login/>}/>
         <Route path='/home' element = {<Home/>}/>
-        <Route path='/register' element = {<Admission/>}/>
+        <Route path='/apply' element = {<Admission/>}/>
         <Route path='/quiz' element = {<Quiz/>}/>
         <Route path='/pay-fees' element = {<Fees/>}/>
       </Routes>

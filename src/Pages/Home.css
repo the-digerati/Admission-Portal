@@ -9,7 +9,7 @@
 }
 
 .menu-nav img{
-    width: 30px;
+    width: 25px;
     height: 30px;
 }
 
@@ -29,12 +29,13 @@
     justify-content: center;
     padding: 10px;
     background-color: aqua;
-    width: 94vw;
+    width: 90%;
     height: 50vh;
     position: absolute;
     top: 5%;
     left: 5%;
-    margin: 0 5px;
+    margin: 2rem 2rem;
+    border-radius: 10px;
 }
 
 .title{

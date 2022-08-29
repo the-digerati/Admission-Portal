@@ -10,7 +10,7 @@ const Header = () => {
         <div className='user-header'>
           {/* <FaUserGraduate/> */}
         
-          <p className='userName' id='userName'>Mark</p>
+          <p className='userName'>Welcome, <span id='userName'>Mark</span></p>
         </div>
         <img className='logo' src={Logo} alt='Logo' />
         <div id='schoolName'>
