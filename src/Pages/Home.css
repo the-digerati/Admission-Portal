@@ -11,6 +11,7 @@
 .menu-nav img{
     width: 25px;
     height: 30px;
+    cursor: pointer;
 }
 
 .menu-nav li {
@@ -139,4 +140,102 @@
     background-color: #2DCEE3;
     transform: scale(0.95);
     transition: ease-in-out;
+}
+
+.broadcast-pane{
+    height: 20.5vh;
+    width: 90%;
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5% ;
+    margin-left: 8%;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.broadcast-pane h2{
+    font-weight: bold;
+    color: #0B4A53;
+    font-family: 'Lato';
+    font-size: larger;
+}
+.broadcast-pane p{
+    font-size: large;
+}
+
+.broadcast-time{
+    display: flex;
+    float: right;
+    font-size: small;
+    color: #777;
+}
+
+.broadcast-time img{
+    width: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.main-hero-container{
+    width: 90vw;
+    height: 60vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: #0BeA53; */
+    margin-top: 16%;
+    margin-left: 8%;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Lato';
+}
+
+.main-hero-container h2{
+    color: #0B4A53;
+    font-weight: bold;
+    font-size: large;
+}
+
+.main-hero-container p{
+    font-size: large;
+}
+
+.main-hero-container button{
+    background-color: #2DCEE3;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: 'Lato';
+}
+
+.main-hero-container button:hover{
+    background-color: #2DCEE3;
+    opacity: 0.95;
+}
+
+.quiz-cta{
+    background-color: #BF9F62 !important;
+}
+
+.prospectus-cta{
+    background-color: #16D39A !important;
+}
+
+.chat-section{
+    /* background-color: #117533; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5vw;
+    height: 10vh;
+    bottom: 0;
+    float: right;
+    margin-top: 40%;
+    margin-left: 90%
+}
+
+.chat-section img{
+    width: 45px;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import "./NewStyles.css";
@@ -20,155 +21,156 @@ const Admission = () => {
         <div className="fieldset-container">
           <div>
             <label>First Name</label>
-          <input
-            type="text"
-            name="firstName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="MARK"
-          ></input>
+            <input
+              type="text"
+              name="firstName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+              placeholder="MARK"
+            ></input>
           </div>
 
-        <div>
-          <label>Last Name</label>
-        <input
-            type="text"
-            name="lastName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
-            required
-            placeholder="MENSAH"
-          ></input>
-        </div>
+          <div>
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+              required
+              placeholder="MENSAH"
+            ></input>
+          </div>
         </div>
 
         <div className="fieldset-container">
           <div>
             <label>Date Of Birth</label>
-          <input
-            type="date_of_birth"
-            name="firstName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="5/03/2002"
-          ></input>
+            <input
+              type="date_of_birth"
+              name="firstName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+              placeholder="5/03/2002"
+            ></input>
           </div>
 
-        <div>
-          <label>Place Of Birth</label>
-        <input
-            type="text"
-            name="lastName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
-            required
-            placeholder="KOFORIDUA"
-          ></input>
-        </div>
+          <div>
+            <label>Place Of Birth</label>
+            <input
+              type="text"
+              name="lastName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+              required
+              placeholder="KOFORIDUA"
+            ></input>
+          </div>
         </div>
 
         <div className="fieldset-container">
           <div>
             <label>Class or Level</label>
-          <input
-            type="text"
-            name="firstName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="PRIMARY 5"
-          ></input>
+            <input
+              type="text"
+              name="firstName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+              placeholder="PRIMARY 5"
+            ></input>
           </div>
 
-        <div>
-          <label>Denomination</label>
-        <input
-            type="text"
-            name="lastName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
-            required
-            placeholder="METHODIST"
-          ></input>
+          <div>
+            <label>Denomination</label>
+            <input
+              type="text"
+              name="lastName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+              required
+              placeholder="METHODIST"
+            ></input>
+          </div>
         </div>
-        </div>
-        
-      
 
         {/* Guardian Information Section */}
         <p>Guardian Information</p>
         <span></span>
-       
 
         <div className="fieldset-container">
           <div>
             <label>First Name</label>
-          <input
-            type="text"
-            name="firstName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="LUCY"
-          ></input>
+            <input
+              type="text"
+              name="firstName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+              placeholder="LUCY"
+            ></input>
           </div>
 
-        <div>
-          <label>Last Name</label>
-        <input
-            type="text"
-            name="lastName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
-            required
-            placeholder="MENSAH"
-          ></input>
-        </div>
+          <div>
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+              required
+              placeholder="MENSAH"
+            ></input>
+          </div>
         </div>
 
         <div className="fieldset-container">
           <div>
             <label>Place of Residence</label>
-          <input
-            type="text"
-            name="firstName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="DANSOMAN"
-          ></input>
+            <input
+              type="text"
+              name="firstName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+              placeholder="DANSOMAN"
+            ></input>
           </div>
 
-        <div>
-          <label>Occupation</label>
-        <input
-            type="text"
-            name="lastName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
-            required
-            placeholder="TRADER"
-          ></input>
-        </div>
+          <div>
+            <label>Occupation</label>
+            <input
+              type="text"
+              name="lastName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+              required
+              placeholder="TRADER"
+            ></input>
+          </div>
         </div>
 
         <div className="fieldset-container">
           <div>
             <label>Marital Status</label>
-          <input
-            type="text"
-            name="firstName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
-            placeholder="SINGLE"
-          ></input>
+            <input
+              type="text"
+              name="firstName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
+              placeholder="SINGLE"
+            ></input>
           </div>
 
-        <div>
-          <label>Telephone</label>
-        <input
-            type="telephone"
-            name="lastName"
-            class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
-            required
-            placeholder="+233-509-578-9927"
-          ></input>
-        </div>
+          <div>
+            <label>Telephone</label>
+            <input
+              type="telephone"
+              name="lastName"
+              class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
+              required
+              placeholder="+233-509-578-9927"
+            ></input>
+          </div>
         </div>
 
         {/* Grouped Buttons Here */}
 
         <div className="form-btn-group">
-          <button className="btn-primary-back">Abort</button>
-          <button className="submit">Next</button>
-        </div>
+          <Link to="/home">
+            <button className="btn-primary-back">Abort</button>
+          </Link>
 
+          <Link to="/quiz">
+            <button className="submit">Next</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

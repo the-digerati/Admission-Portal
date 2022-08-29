@@ -11,28 +11,45 @@ import Pen from '../Icons/Pen.svg'
 import mail from '../Icons/mail.svg'
 import Vector from '../Icons/Vector.svg'
 import radio from '../Icons/codicon_broadcast.svg'
+import { Link } from 'react-router-dom'
 
 
 const Menu = () => {
-  // const minimize = () => {
-  //   let min = document.querySelector('#minimize');
-  //   min.addEventListener('click', minimize);
-  // }
   return (
     <div className='container hero-section'>
       {/* Aside Menu */}
       <div className='aside-menu'>
         <ul className='menu-nav'>
-          <li><img title='Minimize' src={chevron} id = 'minimize'/></li>
+          <li><img title='Minimize' src={chevron} id='minimize' /></li>
           <li><img title='Profile' src={broadcast} /></li>
-          <li><img title='Quiz' src={Vector} /></li>
-          <li><img title='Enrol' src={Pen} /></li>
-          <li><img title='Fees' src={cash} /></li>
+          <li>
+            <Link to='/quiz'>
+              <img title='Quiz' src={Vector} />
+            </Link>
+          </li>
+          <li>
+            <Link to='/apply'>
+              <img title='Enrol' src={Pen} />
+            </Link>
+          </li>
+          <li>
+            <Link to='/pay-fees'>
+              <img title='Fees' src={cash} />
+            </Link>
+          </li>
           <li><img title='Settings' src={settings1} /></li>
           <li><img title='Status' src={settings} /></li>
-          <li><img title='Broadcast' src={radio} /></li>
+          <li>
+            <Link to='/home'>
+              <img title='Broadcast' src={radio} />
+            </Link>
+          </li>
           <li><img title='Inbox' src={mail} /></li>
-          <li><img title='Logout' src={logout} /></li>
+          <li>
+            <Link to='/'>
+              <img title='Logout' src={logout} />
+            </Link>
+          </li>
         </ul>
       </div>
 
