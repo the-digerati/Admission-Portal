@@ -32,10 +32,12 @@
     width: 90%;
     height: 50vh;
     position: absolute;
-    top: 12%;
+    top: 13%;
     left: 5%;
     margin: 2rem 2rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title{
@@ -68,14 +70,24 @@
 
 .form-container p {
     font-weight: 500;
-    text-decoration: underline;
-    text-decoration-color: #117533;
-    word-spacing: 2px;
-    text-decoration-style: solid;
+    font-family: 'Poppins';
+    color: #117533;
+    word-spacing: 5px;
+    letter-spacing: 0.7px;
 }
 
-.form-container p span{
+.form-container span{
     background-color: #117533;
     width: 100%;
-    height: 1px;
+    height: 0.5px;
+}
+
+.fieldset-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fieldset-container input{
+    margin-bottom: 5px !important;
+    width: 40%;
 }
