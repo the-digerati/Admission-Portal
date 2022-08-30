@@ -246,11 +246,36 @@
 .quiz-pane{
     width: 40vw;
     height: 85vh;
-    background-color: #2DCEE3;
+    background-color: #eee;
     position: absolute;
     left: 0;
     top: 0;
     margin: 5rem  8rem ;
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 0 ;
+}
+.quiz-pane h2{
+    color: #0B4A53;
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'Poppins';
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+}
+
+.quiz-section{
+    background-color: #fef;
+    width: 39vw;
+    height: 75.5vh;
+    margin-top: -10px;
+    z-index: 1111;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
