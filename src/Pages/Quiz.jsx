@@ -11,7 +11,13 @@ const Quiz = () => {
       <div className="quiz-pane">
         <h2>Available Quizzes</h2>
         <div className="quiz-section">
+          <div className="quiz-card">
+            <p></p>
+          </div>
           <div className="quiz-card"></div>
+          <div className="quiz-card"></div>
+          <div className="quiz-card"></div>
+         
         </div>
       </div>
     </div>
