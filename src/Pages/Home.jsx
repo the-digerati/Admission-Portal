@@ -69,7 +69,7 @@ const Home = () => {
       </div>
 
       <div className="chat-section">
-        <img src={chat}></img>
+        <img src={chat} title = "Chat"></img>
       </div>
     </div>
   );

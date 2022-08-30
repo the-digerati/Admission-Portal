@@ -226,16 +226,31 @@
 .chat-section{
     /* background-color: #117533; */
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 80%;
+    left: 90%;
     width: 5vw;
     height: 10vh;
     bottom: 0;
     float: right;
-    margin-top: 40%;
-    margin-left: 90%
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .chat-section img{
     width: 45px;
+    cursor: pointer     ;
+}
+
+
+.quiz-pane{
+    width: 40vw;
+    height: 85vh;
+    background-color: #2DCEE3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 5rem  8rem ;
+    border-radius: 8px;
+    padding: 10px;
 }

@@ -8,6 +8,9 @@ const Quiz = () => {
     <div className='main-page'>
       <Header/>
       <Menu/>
+      <div  className='quiz-pane'>
+        <h2></h2>
+      </div>
 
     </div>
   )
