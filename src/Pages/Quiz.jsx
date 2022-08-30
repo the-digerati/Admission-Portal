@@ -33,7 +33,7 @@ const Quiz = () => {
     
           <div className="quiz-card">
             <span className="circle"></span>
-            <p>ICT</p>
+            <p>Mathematics</p>
           </div>
     
           <div className="quiz-card">
