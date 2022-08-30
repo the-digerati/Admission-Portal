@@ -283,6 +283,7 @@
     grid-auto-rows: auto;
     grid-gap: 0px;
     overflow-y: scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -292,8 +293,40 @@
 
 .quiz-card{
     background-color: #0B4A53;
-    height: 300px;
+    height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 1rem;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.quiz-card:hover{
+    transition: ease-in-out;
+    transform: scale(0.95);
+    background-color: #055763;
+}
+
+.quiz-card .circle{
+    display: block;
+    width: 180px;
+    height: 180px;
+    background-color: #f9f5ef;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 15px;
+ 
+}
+
+.quiz-card p{
+    background-color: #BF9F62;
+    padding: 5px 8px;
+    float: right;
+    border-radius: 15px;
+    margin-bottom: -5px;
+    font-family: 'Lato';
+    font-size: medium;
+    color: white;
+    font-weight: 500;
 }
