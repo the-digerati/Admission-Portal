@@ -462,7 +462,11 @@
   background-color: white;
   border-radius: 8px 0 0 8px;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .user-qualification{
   padding: 20px;

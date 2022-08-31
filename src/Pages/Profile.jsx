@@ -13,6 +13,7 @@ const Profile = () => {
 
       <div className="profile-main">
         <div className="user-profile">
+            
         
         </div>
         <div className="user-qualification">
