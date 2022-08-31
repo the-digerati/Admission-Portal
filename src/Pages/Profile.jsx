@@ -3,7 +3,8 @@ import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import "./NewStyles.css";
 import "./Home.css";
-import {IoMdCheckmarkCircleOutline} from 'react-icons/io'
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import Boy from "../boy.jpg";
 
 const Profile = () => {
   return (
@@ -13,35 +14,42 @@ const Profile = () => {
 
       <div className="profile-main">
         <div className="user-profile">
+          <img src={Boy}></img>
+          <p className="user-fullname">Mark Taylor</p>
+          <div className="user-table-details">
             
-        
+
+          </div>
         </div>
         <div className="user-qualification">
-            <span id="score" className="quiz-marks">--</span>
-            <span className="quiz-statement">is your score for the entrance quiz.</span>
-            <p>Check your status below.</p>
+          <span id="score" className="quiz-marks">
+            --
+          </span>
+          <span className="quiz-statement">
+            is your score for the entrance quiz.
+          </span>
+          <p>Check your status below.</p>
 
-            <span id="admission-status">
-                <span className= "status-image">
-                    <IoMdCheckmarkCircleOutline className="span-icon"/>
-                </span>
-                <p>Enrollment Status</p>
+          <span id="admission-status">
+            <span className="status-image">
+              <IoMdCheckmarkCircleOutline className="span-icon" />
             </span>
-        
-            <span id="admission-status">
-                <span className= "status-image">
-                    <IoMdCheckmarkCircleOutline className="span-icon"/>
-                </span>
-                <p>Fees Payment</p>
+            <p>Enrollment Status</p>
+          </span>
+
+          <span id="admission-status">
+            <span className="status-image">
+              <IoMdCheckmarkCircleOutline className="span-icon" />
             </span>
-        
-            <span id="admission-status">
-                <span className= "status-image">
-                    <IoMdCheckmarkCircleOutline className="span-icon"/>
-                </span>
-                <p>Student Qualification</p>
+            <p>Fees Payment</p>
+          </span>
+
+          <span id="admission-status">
+            <span className="status-image">
+              <IoMdCheckmarkCircleOutline className="span-icon" />
             </span>
-        
+            <p>Student Qualification</p>
+          </span>
         </div>
       </div>
     </div>
