@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@200;300;400&family=Poppins:wght@100;200;300;500;600;700&display=swap');
+
 .menu {
   width: 20vw;
   color: #3ee;
@@ -434,4 +436,35 @@
 .mtn:hover{
     transform: scale(1.2);
     transition: ease-in-out;
+}
+
+/* Profile & Settings Page */
+.profile-main{
+  width: 80vw;
+  height: 80vh;
+  background-color: #16d39a;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  position: absolute;
+  z-index: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-profile{
+  width: 50%;
+  height: inherit;
+  background-color: white;
+  border-radius: 8px 0 0 8px;
+  padding: 20px;
+}
+
+.user-qualification{
+  padding: 20px;
+
+  
 }
