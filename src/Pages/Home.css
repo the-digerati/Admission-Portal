@@ -467,15 +467,40 @@
 .user-qualification{
   padding: 20px;
   width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
 }
 
 #score{
   font-family: 'Poppins';
   font-weight: 700;
-  font-size: 32pt;
+  font-size: 38pt;
   margin: 0 auto;
   color: white;
   padding: 0;
   justify-content: center;
+  align-items: center;
+}
+
+.quiz-statement{
+  color: white;
+  font-family: 'Poppins';
+  font-size: large;
+}
+
+.user-qualification p {
+  color: white;
+  font-family: 'Poppins';
+}
+
+#admission-status{
+  width: 60%;
+  height: 8%;
+  background-color: #eee;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
 }
