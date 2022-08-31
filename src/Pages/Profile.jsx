@@ -13,7 +13,7 @@ const Profile = () => {
       <div className="profile-main">
         <div className="user-profile"></div>
         <div className="user-qualification">
-            <span id="score" className="quiz-marks-field">-</span>
+            <span id="score" className="quiz-marks">-</span>
         </div>
       </div>
     </div>

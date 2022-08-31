@@ -451,6 +451,7 @@
   margin-left: 10rem;
   position: absolute;
   z-index: 0;
+  display: flex;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -465,6 +466,16 @@
 
 .user-qualification{
   padding: 20px;
+  width: 50%;
 
-  
+}
+
+#score{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 32pt;
+  margin: 0 auto;
+  color: white;
+  padding: 0;
+  justify-content: center;
 }
