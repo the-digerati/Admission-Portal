@@ -6,12 +6,12 @@ import "./NewStyles.css";
 
 const Quiz = () => {
   return (
-    <div className="quiz-page">
-      <div className="main-page">
-        <Header />
-        <Menu />
+    <div className="main-page">
+      <Header />
+      <Menu />
+      <div className="quiz-page">
         <div className="quiz-pane">
-          <h2>Available Quizzes</h2>
+          <h2>Available Subjects</h2>
           <div className="quiz-section">
             <div className="quiz-card">
               <span className="circle"></span>
@@ -32,6 +32,25 @@ const Quiz = () => {
               <span className="circle"></span>
               <p>Social Studies</p>
             </div>
+          </div>
+        </div>
+
+        <div className="quiz-screen">
+          <h2>Quizzes</h2>
+          <div className="quiz">
+            
+          </div>
+          <div className="quiz">
+
+          </div>
+          <div className="quiz">
+
+          </div>
+          <div className="quiz">
+
+          </div>
+          <div className="quiz">
+
           </div>
         </div>
       </div>
