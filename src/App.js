@@ -5,6 +5,7 @@ import Login from './Pages/Login';
 import Admission from './Pages/Admission'
 import Quiz from './Pages/Quiz'
 import Fees from './Pages/Fees'
+import Profile from './Pages/Profile';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path='/apply' element = {<Admission/>}/>
         <Route path='/quiz' element = {<Quiz/>}/>
         <Route path='/pay-fees' element = {<Fees/>}/>
+        <Route path='/profile' element = {<Profile/>}/>
+        <Route path='/settings' element = {<Profile/>}/>
       </Routes>
     </Router>
   );

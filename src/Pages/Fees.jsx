@@ -6,6 +6,9 @@ import "./Home.css";
 
 // Images
 import Airtel from "../airtelTigo.png"
+import Gpay from "../GhanaPay.webp"
+import Vodafone from "../vodafone.png"
+import MTN from "../mtn.jpg"
 
 const Fees = () => {
   return (
@@ -15,15 +18,21 @@ const Fees = () => {
       {/* Payment Card */}
       <div className="fees-page">
         <h1>Pay  Your Fees Now</h1>
-        <p>Kindly choose the payment mode below for further assistance</p>
+        <p>Kindly choose your preferred payment method for further assistance</p>
 
         <div className="teleco-main">
           <div className="teleco">
-            <img src={Airtel}/>
+            <img className="images" src={Airtel}/>
           </div>
-          <div className="teleco"></div>
-          <div className="teleco"></div>
-          <div className="teleco"></div>
+          <div className="teleco">
+            <img className="images" src={Vodafone} alt="" />
+          </div>
+          <div className="teleco" >
+            <img className="images mtn" src={MTN} alt="" />
+          </div>
+          <div className="teleco">
+            <img className="images" src={Gpay} alt="" />
+          </div>
 
         </div>
 

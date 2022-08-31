@@ -21,7 +21,11 @@ const Menu = () => {
       <div className='aside-menu'>
         <ul className='menu-nav'>
           <li><img title='Minimize' src={chevron} id='minimize' /></li>
-          <li><img title='Profile' src={broadcast} /></li>
+          <li>
+            <Link to='/profile'>
+              <img title='Profile' src={broadcast} />
+            </Link>
+          </li>
           <li>
             <Link to='/quiz'>
               <img title='Quiz' src={Vector} />
@@ -37,7 +41,11 @@ const Menu = () => {
               <img title='Fees' src={cash} />
             </Link>
           </li>
-          <li><img title='Settings' src={settings1} /></li>
+          <li>
+            <Link to='/settings'>
+              <img title='Settings' src={settings1} />
+            </Link>
+          </li>
           <li><img title='Status' src={settings} /></li>
           <li>
             <Link to='/home'>
