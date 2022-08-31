@@ -12,7 +12,9 @@ const Profile = () => {
       <Menu />
 
       <div className="profile-main">
-        <div className="user-profile"></div>
+        <div className="user-profile">
+        
+        </div>
         <div className="user-qualification">
             <span id="score" className="quiz-marks">--</span>
             <span className="quiz-statement">is your score for the entrance quiz.</span>
@@ -22,10 +24,23 @@ const Profile = () => {
                 <span className= "status-image">
                     <IoMdCheckmarkCircleOutline className="span-icon"/>
                 </span>
-                <p>Admission Status</p>
+                <p>Enrollment Status</p>
             </span>
-            <span id="admission-status"></span>
-            <span id="admission-status"></span>
+        
+            <span id="admission-status">
+                <span className= "status-image">
+                    <IoMdCheckmarkCircleOutline className="span-icon"/>
+                </span>
+                <p>Fees Payment</p>
+            </span>
+        
+            <span id="admission-status">
+                <span className= "status-image">
+                    <IoMdCheckmarkCircleOutline className="span-icon"/>
+                </span>
+                <p>Student Qualification</p>
+            </span>
+        
         </div>
       </div>
     </div>
