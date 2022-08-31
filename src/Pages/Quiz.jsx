@@ -2,7 +2,13 @@ import React from "react";
 import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import "./NewStyles.css";
-// import
+import {GrHpeLabs} from 'react-icons/gr';
+import {SiReactos} from 'react-icons/si'
+import {FcGlobe} from 'react-icons/fc';
+import {GiBookshelf} from 'react-icons/gi'
+import {TbMathSymbols} from 'react-icons/tb'
+
+
 
 const Quiz = () => {
   return (
@@ -14,22 +20,30 @@ const Quiz = () => {
           <h2>Available Subjects</h2>
           <div className="quiz-section">
             <div className="quiz-card">
-              <span className="circle"></span>
+              <span className="circle">
+                <GiBookshelf className="icon"/>
+              </span>
               <p>English Language</p>
             </div>
 
             <div className="quiz-card">
-              <span className="circle"></span>
+              <span className="circle">
+                <TbMathSymbols className="icon"/>
+              </span>
               <p>Mathematics</p>
             </div>
 
             <div className="quiz-card">
-              <span className="circle"></span>
+              <span className="circle">
+                <SiReactos className="icon" style={{fill: 'purple'}} />
+              </span>
               <p>Integrated Science</p>
             </div>
 
             <div className="quiz-card">
-              <span className="circle"></span>
+              <span className="circle">
+                <FcGlobe className="icon"/>
+              </span>
               <p>Social Studies</p>
             </div>
           </div>
