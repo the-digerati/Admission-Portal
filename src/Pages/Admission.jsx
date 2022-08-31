@@ -46,7 +46,7 @@ const Admission = () => {
             <label>Date Of Birth</label>
             <input
               type="date_of_birth"
-              name="firstName"
+              name="date_of_birth"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
               placeholder="5/03/2002"
             ></input>
@@ -56,7 +56,7 @@ const Admission = () => {
             <label>Place Of Birth</label>
             <input
               type="text"
-              name="lastName"
+              name="place_of_birth"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
               required
               placeholder="KOFORIDUA"
@@ -69,7 +69,7 @@ const Admission = () => {
             <label>Class or Level</label>
             <input
               type="text"
-              name="firstName"
+              name="class"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
               placeholder="PRIMARY 5"
             ></input>
@@ -79,7 +79,7 @@ const Admission = () => {
             <label>Denomination</label>
             <input
               type="text"
-              name="lastName"
+              name="denomination"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
               required
               placeholder="METHODIST"
@@ -119,7 +119,7 @@ const Admission = () => {
             <label>Place of Residence</label>
             <input
               type="text"
-              name="firstName"
+              name="residence"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
               placeholder="DANSOMAN"
             ></input>
@@ -129,7 +129,7 @@ const Admission = () => {
             <label>Occupation</label>
             <input
               type="text"
-              name="lastName"
+              name="occupation"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
               required
               placeholder="TRADER"
@@ -142,7 +142,7 @@ const Admission = () => {
             <label>Marital Status</label>
             <input
               type="text"
-              name="firstName"
+              name="marital_status"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
               placeholder="SINGLE"
             ></input>
@@ -152,7 +152,7 @@ const Admission = () => {
             <label>Telephone</label>
             <input
               type="telephone"
-              name="lastName"
+              name="telephone"
               class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
               required
               placeholder="+233-509-578-9927"

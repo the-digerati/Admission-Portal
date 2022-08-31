@@ -17,7 +17,7 @@ const Profile = () => {
           <img src={Boy}></img>
           <p className="user-fullname">Mark Taylor</p>
           <div className="user-table-details">
-            
+           
 
           </div>
         </div>
