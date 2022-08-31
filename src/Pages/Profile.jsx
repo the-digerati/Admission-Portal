@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import "./NewStyles.css";
 import "./Home.css";
+import {IoMdCheckmarkCircleOutline} from 'react-icons/io'
 
 const Profile = () => {
   return (
@@ -18,7 +19,10 @@ const Profile = () => {
             <p>Check your status below.</p>
 
             <span id="admission-status">
-                <span className= "status-image"></span>
+                <span className= "status-image">
+                    <IoMdCheckmarkCircleOutline className="span-icon"/>
+                </span>
+                <p>Admission Status</p>
             </span>
             <span id="admission-status"></span>
             <span id="admission-status"></span>
