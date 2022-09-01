@@ -17,8 +17,38 @@ const Profile = () => {
           <img src={Boy}></img>
           <p className="user-fullname">Mark Taylor</p>
           <div className="user-table-details">
-           
+            <div className="headings">
+              <p>FullName</p>
+              <p>Sex</p>
+              <p>Date of Birth</p>
+              <p>Boarding Status</p>
+              <p>Class</p>
 
+              <br />
+              {/* <br /> */}
+
+              <p>Guardian Name</p>
+              <p>Occupation</p>
+              <p>Place of Residence</p>
+              <p>Marital Status</p>
+              <p>Contact</p>
+            </div>
+            <div className="details">
+              <p className="student-fullname">MARK TAYLOR</p>
+              <p className="sex">Male</p>
+              <p className="date_of_birth">05/03/1999</p>
+              <p className="boarding_status">Boarder</p>
+              <p className = "studentClass">Primary 6</p>
+
+              <br />
+              {/* <br /> */}
+
+              <p>JONES E TAYLOR</p>
+              <p>Teacher</p>
+              <p>Koforidua</p>
+              <p>Married</p>
+              <p>0504545879</p>
+            </div>
           </div>
         </div>
         <div className="user-qualification">

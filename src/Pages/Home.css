@@ -486,10 +486,32 @@
   width: 80%;
   height: 50%;
   margin: 10px auto;
-  background-color: #eee;
+  /* background-color: #eee; */
   border-radius: 8px;
   padding: 10px;
+  gap: 2rem;
+  display: flex;
 }
+
+.headings{
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  color: #055763;
+  font-weight: bold;
+  font-family: 'Poppins';
+  padding: 5px;
+}
+
+.details{
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0 5px 5px 0;
+  color: #055763;
+}
+
 
 
 
