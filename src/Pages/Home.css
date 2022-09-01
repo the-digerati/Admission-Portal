@@ -648,7 +648,7 @@
 
 
 #appliedUser:hover{
-  transform: scale(0.99);
+  transform: scale(1);
   transition: ease-in-out;
 }
 
@@ -667,6 +667,27 @@
   font-family: 'Lato';
 }
 
+.user-sts{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-sts h2{
+  color: #055763;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Lato';
+}
+
+.user-sts p{
+  font-size: small;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  color: #0b4a53;
+}
+
 .applicant{
   font-size: 32pt;
 }
@@ -676,3 +697,16 @@
   /* font-size: medium; */
   font-size: large;
 }
+
+.enrollment-status{
+  width: 250px;
+  height:55px;
+  background-color: #055763;
+  border-radius: 10px;
+  margin: 6px 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.es-icon{}

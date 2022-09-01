@@ -1,8 +1,9 @@
 import React from "react";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import "./NewStyles.css";
-import Pic from '../boy.jpg'
+import Pic from "../boy.jpg";
 
 const AdminDashboard = () => {
   return (
@@ -41,8 +42,15 @@ const AdminDashboard = () => {
           <h2 className="dashboard-title"> Enrolled Students</h2>
           <div id="appliedUser">
             <img src={Pic} alt="" />
-            <p>H</p>
-            <p>H</p>
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              Pending Admission
+            </div>
           </div>
           <div id="appliedUser"></div>
           <div id="appliedUser"></div>
