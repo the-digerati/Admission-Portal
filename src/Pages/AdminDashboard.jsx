@@ -8,7 +8,9 @@ const AdminDashboard = () => {
         <div className='main-page'>
             <Header userName = "Administrator"/>
             <Menu/>
-            
+            <div className="dashboard">
+                
+            </div>
             
 
         </div>
