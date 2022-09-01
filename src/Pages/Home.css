@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@200;300;400&family=Poppins:wght@100;200;300;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@200;300;400&family=Poppins:wght@100;200;300;500;600;700&display=swap");
 
 .menu {
   width: 20vw;
@@ -262,7 +262,7 @@
   padding: 0;
 }
 .quiz-pane h2,
-.quiz-screen h2 {
+.quiz-screen h2, .dashboard-title {
   color: #0b4a53;
   font-size: larger;
   font-weight: 800;
@@ -386,60 +386,60 @@
   background-color: #055763;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 1.5rem 2rem ;
+  padding: 1.5rem 2rem;
 }
 
 .fees-page h1 {
   font-weight: bolder;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 32pt;
   color: white;
   /* background-color: #2dcee3; */
   border-radius: 5px;
 }
 
-.fees-page p{
-    color: white;
-    font-size: 18px;
-    font-family: 'Poppins';
+.fees-page p {
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins";
 }
 
-.teleco-main{
-    width: 100%;
-    height: 300px;
-    /* background-color: #16d39a; */
-    display: grid;
-    margin: 1rem 0 ;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    padding: 20px;
+.teleco-main {
+  width: 100%;
+  height: 300px;
+  /* background-color: #16d39a; */
+  display: grid;
+  margin: 1rem 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  padding: 20px;
 }
 
-.teleco{
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: white;
-    padding: 20px;
+.teleco {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
 }
 
-.teleco .images{
-    cursor: pointer;
-    width: auto;
-    border-radius: 10px;
+.teleco .images {
+  cursor: pointer;
+  width: auto;
+  border-radius: 10px;
 }
 
-.teleco:hover{
-    transform: scale(0.98);
+.teleco:hover {
+  transform: scale(0.98);
 }
 
-.mtn:hover{
-    transform: scale(1.2);
-    transition: ease-in-out;
+.mtn:hover {
+  transform: scale(1.2);
+  transition: ease-in-out;
 }
 
 /* Profile & Settings Page */
-.profile-main{
+.profile-main {
   width: 80vw;
   height: 80vh;
   background-color: #16d39a;
@@ -456,7 +456,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.user-profile{
+.user-profile {
   width: 50%;
   height: inherit;
   background-color: white;
@@ -468,21 +468,20 @@
   flex-direction: column;
 }
 
-
-.user-profile img{
+.user-profile img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-bottom: 5px;
 }
 
-.user-fullname{
-  font-family: 'Poppins';
+.user-fullname {
+  font-family: "Poppins";
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.user-table-details{
+.user-table-details {
   width: 80%;
   height: 50%;
   margin: 10px auto;
@@ -493,18 +492,18 @@
   display: flex;
 }
 
-.headings{
+.headings {
   width: 40%;
   height: 100%;
   background-color: white;
   border-radius: 5px;
   color: #055763;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   padding: 5px;
 }
 
-.details{
+.details {
   width: 60%;
   height: 100%;
   background-color: #fff;
@@ -512,21 +511,17 @@
   color: #055763;
 }
 
-
-
-
-.user-qualification{
+.user-qualification {
   padding: 20px;
   width: 50%;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-
 }
 
-#score{
-  font-family: 'Poppins';
+#score {
+  font-family: "Poppins";
   font-weight: 700;
   font-size: 38pt;
   margin: 0 auto;
@@ -536,18 +531,18 @@
   align-items: center;
 }
 
-.quiz-statement{
+.quiz-statement {
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: large;
 }
 
 .user-qualification p {
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
-#admission-status{
+#admission-status {
   width: 60%;
   height: 8%;
   background-color: #eee;
@@ -560,16 +555,80 @@
   cursor: pointer;
 }
 
-#admission-status:hover{
+#admission-status:hover {
   transform: scale(0.98);
 }
 
-.span-icon{
+.span-icon {
   width: 25px;
   height: 25px;
 }
 
-#admission-status p{
+#admission-status p {
   color: black;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
+
+/* Admin Dashboard Page Styles */
+
+.dashboard {
+  width: 90vw;
+  height: 85vh;
+  background-color: #eee;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-left: 8%;
+  position: absolute;
+  margin-top: 5%;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-chart {
+  height: 40%;
+  width: 98%;
+  /* background-color: #055763; */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 25px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.top-chart::-webkit-scrollbar {
+  display: none;
+}
+.chart {
+  background-color: #eee;
+  height: 100%;
+  width: 20vw;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#appliedUsers {
+  overflow-y: scroll;
+  display: grid;
+  grid-template-rows: repeat(auto, 1fr);
+  margin-top: 20px;
+  height: 60%;
+  gap: 10px;
+}
+
+#appliedUsers::-webkit-scrollbar {
+  display: none;
+}
+
+#appliedUser {
+  width: 97%;
+  height: 12vh;
+  background-color: #055763;
+  border-radius: 5px;
+}
+
+
