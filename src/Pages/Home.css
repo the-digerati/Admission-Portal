@@ -595,7 +595,7 @@
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 25px;
+  grid-gap: 20px;
   justify-content: center;
   padding: 10px;
 }
@@ -604,11 +604,17 @@
   display: none;
 }
 .chart {
-  background-color: #eee;
+  /* background-color: #eee; */
   height: 100%;
   width: 20vw;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+
+.chart:hover{
+  transform: scale(0.97);
+  transition: ease-in-out;
 }
 
 #appliedUsers {
@@ -627,8 +633,46 @@
 #appliedUser {
   width: 97%;
   height: 12vh;
-  background-color: #055763;
-  border-radius: 5px;
+  background-color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: space-between;
+}
+
+#appliedUser img{
+  width: 65px;
+  border-radius: 10px;
 }
 
 
+#appliedUser:hover{
+  transform: scale(0.99);
+  transition: ease-in-out;
+}
+
+.chart-main{
+  color: #055763;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  /* font-size: 32pt; */
+  font-family: 'Lato';
+}
+
+.applicant{
+  font-size: 32pt;
+}
+
+.msg-chart{
+  font-family: 'Poppins';
+  /* font-size: medium; */
+  font-size: large;
+}
