@@ -4,6 +4,9 @@ import Header from "../Components/Header";
 import Menu from "../Components/Menu";
 import "./NewStyles.css";
 import Pic from "../boy.jpg";
+import Pic1 from "../boy1.jpg";
+import Pic2 from "../boy2.jpg";
+import Pic3 from "../girl1.jpg";
 
 const AdminDashboard = () => {
   return (
@@ -49,15 +52,114 @@ const AdminDashboard = () => {
 
             <div className="enrollment-status">
               <IoMdCheckmarkCircleOutline  className="es-icon"/>
-              Pending Admission
+              <p>Pending Admission</p>
             </div>
           </div>
-          <div id="appliedUser"></div>
-          <div id="appliedUser"></div>
-          <div id="appliedUser"></div>
-          <div id="appliedUser"></div>
-          <div id="appliedUser"></div>
-          <div id="appliedUser"></div>
+          
+          <div id="appliedUser">
+            <img src={Pic} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic2} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic1} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
+          <div id="appliedUser">
+            <img src={Pic} alt="" />
+            <div className="user-sts">
+              <h2>MARK TAYLOR</h2>
+              <p>Primary 5</p>
+            </div>
+
+            <div className="enrollment-status">
+              <IoMdCheckmarkCircleOutline  className="es-icon"/>
+              <p>Pending Admission</p>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
