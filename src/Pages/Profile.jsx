@@ -9,7 +9,7 @@ import Boy from "../boy.jpg";
 const Profile = () => {
   return (
     <div className="main-page">
-      <Header />
+      <Header userName = "Mark"/>
       <Menu />
 
       <div className="profile-main">

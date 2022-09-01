@@ -6,10 +6,12 @@ import megaphone from "../Icons/megaphone.svg";
 import { Link } from "react-router-dom";
 import chat from "../Icons/chat.svg"
 
+let userName = document.body.getElementsByClassName("userName")
+
 const Home = () => {
   return (
     <div className="container">
-      <Header />
+      <Header userName = "Mark"/>
       <Menu />
       <div className="broadcast-pane">
         <h2>Notification: Broadcast by Administrator</h2>

@@ -13,7 +13,7 @@ import {TbMathSymbols} from 'react-icons/tb'
 const Quiz = () => {
   return (
     <div className="main-page">
-      <Header />
+      <Header userName="Mark"/>
       <Menu />
       <div className="quiz-page">
         <div className="quiz-pane">

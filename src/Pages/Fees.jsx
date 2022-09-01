@@ -13,7 +13,7 @@ import MTN from "../mtn.jpg"
 const Fees = () => {
   return (
     <div className="main-page">
-      <Header />
+      <Header userName = "Mark"/>
       <Menu />
       {/* Payment Card */}
       <div className="fees-page">

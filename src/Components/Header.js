@@ -3,14 +3,14 @@ import './Header.css'
 import Logo from '../logo.png'
 import { BiUserCircle } from 'react-icons/bi'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className='md:container md:mx-auto'>
       <header>
         <div className='user-header'>
           {/* <FaUserGraduate/> */}
         
-          <p className='userName'>Welcome, <span id='userName'>Mark</span></p>
+          <p className='userName'>Welcome, <span id='userName'>{props.userName}</span></p>
         </div>
         <img className='logo' src={Logo} alt='Logo' />
         <div id='schoolName'>

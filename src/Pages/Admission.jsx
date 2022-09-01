@@ -7,7 +7,7 @@ import "./NewStyles.css";
 const Admission = () => {
   return (
     <div className="main-page">
-      <Header />
+      <Header userName = "Mark"/>
       <Menu />
       <h3 className="title">COMPLETE THE FORM BELOW</h3>
       <span className="sperator">
