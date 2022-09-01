@@ -707,8 +707,11 @@
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
+  gap: 10px;
 }
 
 .es-icon{
   color: white;
+  width: 25px;
+  height: 25px;
 }
