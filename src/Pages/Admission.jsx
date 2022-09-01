@@ -48,7 +48,7 @@ const Admission = () => {
             <div>
               <label>Date Of Birth</label>
               <input
-                type="text" //date_of_birth
+                type="date_of_birth" 
                 name="date_of_birth"
                 id="date_of_birth"
                 class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm"
@@ -163,7 +163,7 @@ const Admission = () => {
             <div>
               <label>Telephone</label>
               <input
-                type="text" //telephone
+                type="telephone"
                 name="telephone"
                 id="telephone"
                 class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:ring-sky-500 block w-full rounded-md sm:text-sm "
