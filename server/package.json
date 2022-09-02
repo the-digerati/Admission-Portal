@@ -1,0 +1,26 @@
+{
+  "name": "deutsche-backend",
+  "version": "1.0.0",
+  "description": "A Backend Service for the admission portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-digerati/Admission-Porta.git"
+  },
+  "author": "Lex Benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-digerati/Admission-Porta/issues"
+  },
+  "homepage": "https://github.com/the-digerati/Admission-Porta#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express.js": "^1.0.0",
+    "knex": "^2.3.0",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0"
+  }
+}
