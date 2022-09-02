@@ -30,7 +30,7 @@ const Admission = () => {
 
   const handleSubmit = (e) => {
     addDoc(userCollectionRef,{
-      firstname: firstname,
+        firstname: firstname,
         lastname: lastname,
         date_of_birth: date_of_birth,
         place_of_birth: place_of_birth,
@@ -43,19 +43,14 @@ const Admission = () => {
         marital_status: marital_status,
         telephone: telephone,
 
-    })
+    }).then(() => {
+          alert("Forms submitted");
+        })
+        .catch((error) => {
+          alert(error.message);
+        });
     e.preventDefault();
 
-    // db.collection("FormDetails")
-    //   .add({
-        
-    //   })
-    //   .then(() => {
-    //     alert("Forms submitted");
-    //   })
-    //   .catch((error) => {
-    //     alert(error.message);
-    //   });
   };
   return (
     <div className="main-page">
