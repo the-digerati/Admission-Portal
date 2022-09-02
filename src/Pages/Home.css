@@ -71,17 +71,20 @@
 
 .form-container p {
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: "Lato";
   color: #117533;
   word-spacing: 5px;
   letter-spacing: 0.7px;
   margin-top: 1rem;
+  text-transform: uppercase;
 }
 
 .form-container span {
   background-color: #117533;
+  margin-bottom: 5px;
   width: 93%;
   height: 0.5px;
+  display: block;
 }
 
 .fieldset-container {
@@ -97,7 +100,7 @@
 }
 
 .fieldset-container label {
-  font-family: "Poppins";
+  font-family: "Lato";
   font-weight: bold;
   margin-top: 1rem !important;
 }

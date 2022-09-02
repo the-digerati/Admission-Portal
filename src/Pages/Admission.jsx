@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+  import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Menu from "../Components/Menu";
@@ -56,7 +56,7 @@ const Admission = () => {
         <form className="admissionForm" onSubmit={handleSubmit}>
           {/* Personal Information Section */}
           <p>Personal Information</p>
-          <span></span>
+          <span className="span"></span>
 
           <div className="fieldset-container">
             <div>
