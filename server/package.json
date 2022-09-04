@@ -2,9 +2,9 @@
   "name": "deutsche-backend",
   "version": "1.0.0",
   "description": "A Backend Service for the admission portal",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
