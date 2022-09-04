@@ -2,28 +2,34 @@
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Menu from "../Components/Menu";
+import { addDoc,collection } from "firebase/firestore";
 import { db } from "./firebase";
+
 import "./NewStyles.css";
 
 const Admission = () => {
-  const [firstname, setFirstname] = useState("");
-  const [lastname, setLastname] = useState("");
-  const [date_of_birth, setDate_of_birth] = useState("");
-  const [place_of_birth, setPlace_of_birth] = useState("");
-  const [level, setLevel] = useState("");
-  const [denomination, setDenomination] = useState("");
-  const [firstNameGuard, setFirstNameGuard] = useState("");
-  const [lastNameGuard, setLastNameGuard] = useState("");
-  const [residence, setResidence] = useState("");
-  const [occupation, setOccupation] = useState("");
-  const [marital_status, setMarital_status] = useState("");
-  const [telephone, setTelephone] = useState("");
+  const [firstname, setFirstname] = useState();
+  const [lastname, setLastname] = useState();
+  const [date_of_birth, setDate_of_birth] = useState();
+  const [place_of_birth, setPlace_of_birth] = useState();
+  const [level, setLevel] = useState();
+  const [denomination, setDenomination] = useState();
+  const [firstNameGuard, setFirstNameGuard] = useState();
+  const [lastNameGuard, setLastNameGuard] = useState();
+  const [residence, setResidence] = useState();
+  const [occupation, setOccupation] = useState();
+  const [marital_status, setMarital_status] = useState();
+  const [telephone, setTelephone] = useState();
+
+
+  const userCollectionRef = collection(db, "contactdata")
+
+
+
+
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-
-    db.collection("FormDetails")
-      .add({
+    addDoc(userCollectionRef,{
         firstname: firstname,
         lastname: lastname,
         date_of_birth: date_of_birth,
@@ -36,13 +42,15 @@ const Admission = () => {
         occupation: occupation,
         marital_status: marital_status,
         telephone: telephone,
-      })
-      .then(() => {
-        alert("Forms submitted");
-      })
-      .catch((error) => {
-        alert(error.message);
-      });
+
+    }).then(() => {
+          alert("Forms submitted");
+        })
+        .catch((error) => {
+          alert(error.message);
+        });
+    e.preventDefault();
+
   };
   return (
     <div className="main-page">
@@ -243,7 +251,7 @@ const Admission = () => {
               <button className="btn-primary-back">Abort</button>
             </Link>
 
-            <button className="submit" type="submit ">
+            <button className="submit" type="submit " onClick={handleSubmit}>
               Submit
             </button>
           </div>
