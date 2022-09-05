@@ -11,7 +11,7 @@ const Login = () => {
     <div className="main">
       <img src={STS}></img>
 
-      {/* User Status Selector Button */}
+      {/* User Status Selector Buttons */}
       <form>
         <div className="user-status-selector">
           <div className="student-status">
