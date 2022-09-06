@@ -35,7 +35,7 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Login Form */}
+        {/* Login Form Section */}
         <label class="block">
           <input
             type="text"
