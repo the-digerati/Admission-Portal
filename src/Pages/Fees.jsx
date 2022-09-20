@@ -4,7 +4,7 @@ import Menu from "../Components/Menu";
 import "./NewStyles.css";
 import "./Home.css";
 
-// Images for Payment Cards on the website when the user wants to pay his or her fees
+// Images for Payment Cards
 import Airtel from "../airtelTigo.png"
 import Gpay from "../GhanaPay.webp"
 import Vodafone from "../vodafone.png"
