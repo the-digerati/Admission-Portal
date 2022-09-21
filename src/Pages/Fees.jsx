@@ -4,7 +4,8 @@ import Menu from "../Components/Menu";
 import "./NewStyles.css";
 import "./Home.css";
 
-// Images for Payment Card Section
+// Images for Payment Card Page
+
 
 import Airtel from "../airtelTigo.png"
 import Gpay from "../GhanaPay.webp"
