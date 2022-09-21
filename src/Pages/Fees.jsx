@@ -5,6 +5,7 @@ import "./NewStyles.css";
 import "./Home.css";
 
 // Images for Payment Card Section
+
 import Airtel from "../airtelTigo.png"
 import Gpay from "../GhanaPay.webp"
 import Vodafone from "../vodafone.png"
