@@ -4,7 +4,7 @@ import Menu from "../Components/Menu";
 import "./NewStyles.css";
 import "./Home.css";
 
-// Images for Payment Card Page 
+// Images for Payment Method Section  
 
 
 import Airtel from "../airtelTigo.png"
